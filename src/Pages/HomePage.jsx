@@ -15,13 +15,15 @@ function HomePage() {
     <section className='mt-10 flex flex-col items-center '>
        
        <section className='w-full mb-12'>
-        <div className='flex flex-col items-center inter-200 ' >
-        <h1 className='text-white/50 text-2xl'>Candies Center</h1>
-        <span className=' text-white/40 text-xs'>Alacant, Barcelona, Madrid</span>
-        </div>  
-        <div>
+         
+          <div className='flex flex-col items-center inter-200 ' >
+          <h1 className='text-white/50 text-2xl'>Candies Center</h1>
+          <span className=' text-white/40 text-xs'>Alacant, Barcelona, Madrid</span>
+          </div> 
 
-        </div>
+          <div>
+
+          </div>
        </section>
 
 
@@ -35,15 +37,15 @@ function HomePage() {
         <section className=''>
 
           <div className='flex mb-4'>
-            <span className='mt-10 flex flex-col inter-200 text-white/40 text-center ml-14 text-sm '><span className='text-white/80 bg-black/40 py-1 px-2 rounded-md'>$ 6.99</span></span>
+            <span className='mt-10 flex flex-col inter-200 text-white/50 text-center ml-11 text-sm gap-[2px] '>All Summer<span className='text-white/80 bg-black/40 py-1 px-2 rounded-md'>$ 6.99</span></span>
             <img src={ChocoTwo} alt="" className='h-52' />
           </div>
           <div className='flex flex-col items-center'>
-            <h2 className='text-white/40 mb-2 text-sm inter-300 '>Available Tastes</h2>
-              <section className='flex items-center text-[10px] text-white/70 gap-1 inter-200 '>
+            <h2 className='text-white/40 mb-1 text-sm inter-300 '>Available Tastes</h2>
+              <section className='flex items-center text-[10px] text-white/70 gap-2 inter-200 '>
                 <span className='py-1 px-2 rounded-md bg-[rgba(16,43,133,0.6)] border-black/80 w-fit text-[#6768c0] '>Blueberry</span>
-                <span className='py-1 px-2 rounded-md bg-[rgb(133,16,65,0.6)] border-black/80 w-fit text-[#a86386] '>Strawberry</span>
-                <span className='py-1 px-2 rounded-md bg-[rgb(104,85,22,0.6)] border-black/80 w-fit text-[#9e8f3c] '>Coconut</span>
+                <span className='py-1 px-2 rounded-md bg-[rgb(133,16,65,0.6)] border-black/80 w-fit text-[#a86386] mt-2 '>Strawberry</span>
+                <span className='py-1 px-2 rounded-md bg-[rgb(104,85,22,0.6)] border-black/80 w-fit text-[#9e8f3c] mt-2'>Coconut</span>
                 <span className='py-1 px-2 rounded-md bg-[rgba(37,85,37,0.6)] border-black/80 w-fit text-[#63a880] '>Limonade</span>
               </section>
           </div> 
