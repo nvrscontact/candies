@@ -5,7 +5,7 @@ function NavBar() {
   return (
 
     <>
-    <section className='flex gap-4 inter-200 text-[12px] w-full items-center justify-center mt-4 text-white/60 '>
+    <section className='flex gap-4 inter-200 text-[12px] w-full items-center justify-center mt-6 text-white/60 '>
       <Link to='/'>Home</Link>
       <Link to='/aboutme'>About Us</Link>
       <Link to='/aboutme'>Gallery</Link>
