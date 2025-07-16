@@ -29,8 +29,8 @@ function HomePage() {
 
       <div className='mb-12 w-full'>
 
-        <section className='flex flex-col mx-12 mb-4 items-center border-y py-3 border-white/20'>
-          <h1 className='inter-800 text-xl text-center text-white/60'>Newest Creation</h1>
+        <section className='flex flex-col mx-12 mb-4 text-center border-y py-3 border-white/20'>
+          <h1 className='ml-17 inter-800 text-xl text-center text-white/60 flex items-center gap-1 '>Newest Creation <span className='text-[10px] bg-black/60 p-1 rounded-md '>$ 6. 99</span></h1>
           <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px] '>cereza con aromas tropicales</span>
         </section>
 
@@ -38,18 +38,17 @@ function HomePage() {
 
 
           <div className='flex justify-center mb-4'>
-            <span className='mt-10 flex flex-col inter-200 text-white/50 text-center ml-8 text-[12px] gap-[2px] '>All Summer<span className='text-white/80 bg-black/40 py-1 px-2 rounded-md'>$ 6.99</span></span>
-            <img src={ChocoTwo} alt="" className='h-48' />
-            <section className='mt-20 pl-2 flex flex-col gap-2 text-[10px] text-white/30 pr-2 inter-200 '>
-              <span className=''>new tastes</span>
-              <span className='pl-1'>a new experience</span>
-              <span>your delicious</span>
+            <img src={ChocoTwo} alt="" className='h-40 ml-24' />
+            <section className='mt-14 pl-2 flex flex-col gap-2 text-[10px] text-white/30 pr-2 inter-300 '>
+              <span className=''>New tastes</span>
+              <span className='pl-1'>A new experience</span>
+              <span>Your delicious</span>
             </section>
           </div>
 
 
           <div className='flex flex-col items-center'>
-            <h2 className='text-white/40 text-[12px] inter-300 '>Available Tastes</h2>
+            <h2 className='text-white/40 text-[10px] inter-300 '>Available Tastes</h2>
               <section className='flex items-center text-[10px] text-white/70 gap-2 inter-200 '>
                 <span className='py-1 px-2 rounded-md bg-[rgba(16,43,133,0.6)] border-black/80 w-fit text-[#6768c0] '>Blueberry</span>
                 <span className='py-1 px-2 rounded-md bg-[rgb(133,16,65,0.6)] border-black/80 w-fit text-[#a86386] mt-2 '>Strawberry</span>
