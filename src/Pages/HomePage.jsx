@@ -7,67 +7,67 @@ import Paypal from '../assets/paypal_pay.svg'
 import Visa from '../assets/visa_pay.svg'
 import Mastercard from '../assets/mastercard_pay.svg'
 
+import Star from '../assets/star.svg'
+
 
 function HomePage() {
   return (
     <>
     
-    <section className='mt-6 flex flex-col items-center '>
+    <section className='mt-4 flex flex-col items-center '>
        
-       <section className='mb-8'>
-         
-          <div className='flex flex-col items-center inter-200 bg-black/40 py-4 px-8' >
+       <div className='mb-12 w-full'>
+          <section className='flex flex-col items-center inter-200 bg-black/30 py-4' >
             <h1 className='text-white/50 text-2xl'>Candies Center</h1>
             <span className=' text-white/40 text-xs'>Alacant, Barcelona, Madrid</span>
-          </div> 
+          </section> 
+       </div>
 
-       </section>
 
-
-      <div className='mb-12 w-full'>
+      <div className='mb-24 w-full'>
 
         <section className='flex flex-col mx-12 mb-4 text-center border-y py-3 border-white/20'>
           <h1 className='ml-16 inter-800 w-full text-xl text-white/60 flex items-center gap-[6px] '>Newest Creation <span className='text-[10px] bg-black/70 p-1 '>$ 6.99</span></h1>
           <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px]'>cereza con aromas tropicales</span>
         </section>
 
-        <section className=''>
+            <section className='mx-10'>
+              <div className='flex mb-4'>
 
-          <div className='flex justify-center mb-4'>
-            <img src={ChocoTwo} alt="" className='h-40 ml-24' />
-            <section className='mt-14 pl-2 flex flex-col gap-2 text-[10px] text-white/30 pr-2 inter-300 '>
-              <span className=''>New tastes</span>
-              <span className='pl-1'>A new experience</span>
-              <span>Your delicious</span>
+                  <section className='flex flex-col text-[8px] text-white/70 gap-1 inter-200 ml-5 mr-4 mt-10 '>
+                    <span className='py-1 px-2 rounded-md bg-[rgba(16,43,133,0.6)] border-black/80 w-fit text-[#6768c0]'>Blueberry</span>
+                    <span className='py-1 px-2 rounded-md bg-[rgb(133,16,65,0.6)] border-black/80 w-fit text-[#a86386]'>Strawberry</span>
+                    <span className='py-1 px-2 rounded-md bg-[rgb(104,85,22,0.6)] border-black/80 w-fit text-[#9e8f3c]'>Coconut</span>
+                    <span className='py-1 px-2 rounded-md bg-[rgba(37,85,37,0.6)] border-black/80 w-fit text-[#63a880]'>Limonade</span>
+                  </section>
+
+                <img src={ChocoTwo} alt="" className='h-40' />
+
+              </div>
+              <div className='flex flex-col items-center gap-1'>
+                <section className='[&>*]:h-4 flex '>
+                  <img src={Star} alt="" />
+                  <img src={Star} alt="" />
+                  <img src={Star} alt="" />
+                  <img src={Star} alt="" />
+                  <img src={Star} alt="" />
+                </section>
+                <p className='text-white/40 text-[8px] text-center w-40 inter-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aliquam accusantium quaerat.</p>
+              </div>
             </section>
-          </div>
 
-
-          <div className='flex flex-col items-center'>
-            <h2 className='text-white/40 text-[10px] inter-300 '>Available Tastes</h2>
-              <section className='flex items-center text-[10px] text-white/70 gap-2 inter-200 '>
-                <span className='py-1 px-2 rounded-md bg-[rgba(16,43,133,0.6)] border-black/80 w-fit text-[#6768c0]'>Blueberry</span>
-                <span className='py-1 px-2 rounded-md bg-[rgb(133,16,65,0.6)] border-black/80 w-fit text-[#a86386] mt-2 '>Strawberry</span>
-                <span className='py-1 px-2 rounded-md bg-[rgb(104,85,22,0.6)] border-black/80 w-fit text-[#9e8f3c] mt-2'>Coconut</span>
-                <span className='py-1 px-2 rounded-md bg-[rgba(37,85,37,0.6)] border-black/80 w-fit text-[#63a880]'>Limonade</span>
-              </section>
-          </div> 
-
-
-        </section>
 
       </div>
 
 
-        <div className=''>
+      <div className=''>
 
         <section className='flex flex-col mb-4 items-center border-y py-3 border-white/20'>
           <h1 className='inter-800 text-xl text-center text-white/60'>Summer Delight</h1>
           <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px] '>cereza con aromas tropicales</span>
         </section>
 
-    
-
+  
       </div>
 
       <div>

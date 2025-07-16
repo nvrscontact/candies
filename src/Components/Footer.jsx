@@ -19,14 +19,14 @@ function Footer() {
             <section className='bg-white/10 p-4 rounded-b-xl'>
                 
                 <section className='flex gap-5 text-[10px] text-white/40 mb-5 '>
-                    <div className='flex flex-col gap-1'>
+                    <div className='flex flex-col gap-2'>
                         <span>Contact</span>    
                         <span>Franchises</span>
                         <span>Delivery</span>
                         <span>Promotions</span>
                         <span>Gift Card</span>
                     </div>
-                    <div className='flex flex-col gap-1'>
+                    <div className='flex flex-col gap-2'>
                         <span>Privacy & Cookies</span>
                         <span>Terms and Conditions</span>
                         <span>Legal</span>
