@@ -16,7 +16,7 @@ function HomePage() {
        
        <section className='mb-8'>
          
-          <div className='flex flex-col items-center inter-200 bg-black/60 p-4 ' >
+          <div className='flex flex-col items-center inter-200 bg-black/40 py-4 px-8' >
             <h1 className='text-white/50 text-2xl'>Candies Center</h1>
             <span className=' text-white/40 text-xs'>Alacant, Barcelona, Madrid</span>
           </div> 
@@ -27,7 +27,7 @@ function HomePage() {
       <div className='mb-12 w-full'>
 
         <section className='flex flex-col mx-12 mb-4 text-center border-y py-3 border-white/20'>
-          <h1 className='ml-16 inter-800 text-xl text-white/60 flex items-center gap-1'>Newest Creation <span className='text-[10px] bg-black/60 p-1 rounded-md '>$ 6. 99</span></h1>
+          <h1 className='ml-16 inter-800 w-full text-xl text-white/60 flex items-center gap-[6px] '>Newest Creation <span className='text-[10px] bg-black/70 p-1 '>$ 6.99</span></h1>
           <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px]'>cereza con aromas tropicales</span>
         </section>
 
