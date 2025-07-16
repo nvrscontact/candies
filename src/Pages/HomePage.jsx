@@ -37,7 +37,7 @@ function HomePage() {
         <section className=''>
 
           <div className='flex mb-4'>
-            <span className='mt-10 flex flex-col inter-200 text-white/50 text-center ml-11 text-sm gap-[2px] '>All Summer<span className='text-white/80 bg-black/40 py-1 px-2 rounded-md'>$ 6.99</span></span>
+            <span className='mt-10 flex flex-col inter-200 text-white/50 text-center ml-8 text-sm gap-[2px] '>All Summer<span className='text-white/80 bg-black/40 py-1 px-2 rounded-md'>$ 6.99</span></span>
             <img src={ChocoTwo} alt="" className='h-52' />
           </div>
           <div className='flex flex-col items-center'>
