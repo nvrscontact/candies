@@ -30,7 +30,7 @@ function HomePage() {
       <div className='mb-12 w-full'>
 
         <section className='flex flex-col mx-12 mb-4 text-center border-y py-3 border-white/20'>
-          <h1 className='ml-17 inter-800 text-xl text-center text-white/60 flex items-center gap-1 '>Newest Creation <span className='text-[10px] bg-black/60 p-1 rounded-md '>$ 6. 99</span></h1>
+          <h1 className='ml-17 inter-800 text-xl text-white/60 flex items-center gap-1 '>Newest Creation <span className='text-[10px] bg-black/60 p-1 rounded-md '>$ 6. 99</span></h1>
           <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px] '>cereza con aromas tropicales</span>
         </section>
 
