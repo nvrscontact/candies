@@ -6,7 +6,7 @@ function Footer() {
         <>
         <div className='flex flex-col m-2 gap-[2px] inter-200 '>
             
-            <section className='bg-white/10 p-4 rounded-t-xl'>
+            <section className='bg-black/30 p-4 rounded-t-xl'>
                 <li className='flex gap-3 [&>*>*]:h-[14px] '>
                     <a href="https://facebook.com"><img src="/images/youtube.svg" alt="" /></a>
                     <a href="https://facebook.com"><img src="/images/spotify.svg" alt=""  /></a>
@@ -16,7 +16,7 @@ function Footer() {
                 </li>
             </section>
 
-            <section className='bg-white/10 p-4 rounded-b-xl'>
+            <section className='bg-black/30 p-4 rounded-b-xl'>
                 
                 <section className='flex gap-5 text-[10px] text-white/40 mb-5 '>
                     <div className='flex flex-col gap-2'>

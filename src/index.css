@@ -8,7 +8,7 @@
     right:0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at center left, rgb(14, 14, 14), transparent 30%);
+    background: radial-gradient(circle at center left, rgb(28, 28, 28), transparent 30%);
     mix-blend-mode:screen;
     pointer-events:none;
 }

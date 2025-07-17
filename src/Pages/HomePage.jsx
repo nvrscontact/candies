@@ -24,7 +24,7 @@ function HomePage() {
 
             <section className='flex flex-col ml-5'>
               <h1 className='inter-800 text-2xl text-white/60 flex items-center gap-[6px]'>Newest Creation</h1>
-              <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px]'>cereza con aromas tropicales</span>
+              <span className='text-center text-white/50 inter-300 mt-[-3px] text-[12px]'>cereza con aromas tropicales</span>
             </section>
             <span className='mt-[6px] ml-[6px] text-[9px] bg-black/40 h-fit p-1 inter-200 rounded-md'>$ 6.99</span>
 
@@ -41,17 +41,19 @@ function HomePage() {
         </section>
 
         
-        <section className='mt-4 px-18 flex flex-col items-center justify-center'>
-          <div className='flex items-center ml-3  '>
+        <section className='mt-2 px-18 flex flex-col items-center justify-center'>
+          <div className='flex items-center  '>
             <img src={Star} alt="" className='h-4' />
             <img src={Star} alt="" className='h-4' />
             <img src={Star} alt="" className='h-4' />
             <img src={Star} alt="" className='h-4' />
             <img src={Star} alt="" className='h-4' />
-            <span className='text-white/40 inter-200 text-[8px] ml-[2px] '>+13</span>
           </div>
           <p className='text-[9px] text-white/70 text-center inter-200 mt-1 mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium a.</p>
-          <span className='text-[11px] bg-white/10 px-2 py-1 rounded-md border border-black/60'>Place Order</span>
+          <div className='flex gap-2'>
+          <span className='text-[11px] bg-white/10 px-2 py-1 rounded-md border border-white/20'>Gallery</span>
+          <span className='text-[11px] bg-white/10 px-2 py-1 rounded-md border border-white/20'>Place Order</span>
+          </div>
         </section>
 
       </div>
