@@ -33,10 +33,11 @@ function HomePage() {
         <section className='flex relative w-full'>
         <div className="degraded"></div>
         <img src={ChocoTwo} alt="" className='h-60 w-fit mx-auto' />
-        <div className='flex flex-col gap-1 items-center absolute right-6 mt-6 inter-200'>
-            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 mr-3 '>Strawberry</span>
-            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 mr-2'>Limonade</span>
+        <div className='flex flex-col gap-1 items-end absolute right-6 mt-6 inter-200'>
+            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 '>Strawberry</span>
+            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Limonade</span>
             <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Blueberry</span>
+            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Cherry</span>
         </div>
         </section>
 
@@ -50,10 +51,7 @@ function HomePage() {
             <img src={Star} alt="" className='h-4' />
           </div>
           <p className='text-[9px] text-white/70 text-center inter-200 mt-1 mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium a.</p>
-          <div className='flex gap-2'>
-          <span className='text-[11px] bg-white/10 px-2 py-1 rounded-md border border-white/20'>Gallery</span>
           <span className='text-[11px] bg-white/10 px-2 py-1 rounded-md border border-white/20'>Place Order</span>
-          </div>
         </section>
 
       </div>
