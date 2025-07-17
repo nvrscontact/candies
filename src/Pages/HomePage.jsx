@@ -23,26 +23,35 @@ function HomePage() {
         <section className='flex mb-4 text-center border-y py-3 border-white/20'>
 
             <section className='flex flex-col ml-5'>
-              <h1 className='inter-800 text-xl text-white/60 flex items-center gap-[6px]'>Newest Creation</h1>
+              <h1 className='inter-800 text-2xl text-white/60 flex items-center gap-[6px]'>Newest Creation</h1>
               <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px]'>cereza con aromas tropicales</span>
             </section>
-            <span className='mt-1 ml-1 text-[9px] bg-black/70 h-fit p-1 inter-200'>$ 6.99</span>
+            <span className='mt-[6px] ml-[6px] text-[9px] bg-black/40 h-fit p-1 inter-200 rounded-md'>$ 6.99</span>
 
         </section>
 
         <section className='flex relative w-full'>
         <div className="degraded"></div>
-        <img src={ChocoTwo} alt="" className='h-52 w-fit mx-auto' />
+        <img src={ChocoTwo} alt="" className='h-60 w-fit mx-auto' />
+        <div className='flex flex-col gap-1 items-center absolute right-6 mt-6 inter-200'>
+            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 mr-3 '>Strawberry</span>
+            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 mr-2'>Limonade</span>
+            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Blueberry</span>
+        </div>
         </section>
 
         
-        <section className='mt-4 px-18'>
-        <div className='flex gap-1 justify-center items-center mb-2'>
-          <span className='text-[8px] rounded-[6px] text-[#fd97c2] bg-[rgba(80,3,42,0.4)] py-1 px-2 border border-white/10'>Strawberry</span>
-          <span className='text-[8px] rounded-[6px] text-[#85f58b] bg-[rgba(28,66,25,0.4)] py-1 px-2 border border-white/10'>Lemonade</span>
-          <span className='text-[8px] rounded-[6px] text-[#88c0ff] bg-[rgba(20,32,66,0.4)] py-1 px-2 border border-white/10'>Blueberry</span>
-        </div>
-        <p className='text-[9px] text-white/50 text-center inter-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium a explicabo.</p>
+        <section className='mt-4 px-18 flex flex-col items-center justify-center'>
+          <div className='flex items-center ml-3  '>
+            <img src={Star} alt="" className='h-4' />
+            <img src={Star} alt="" className='h-4' />
+            <img src={Star} alt="" className='h-4' />
+            <img src={Star} alt="" className='h-4' />
+            <img src={Star} alt="" className='h-4' />
+            <span className='text-white/40 inter-200 text-[8px] ml-[2px] '>+13</span>
+          </div>
+          <p className='text-[9px] text-white/70 text-center inter-200 mt-1 mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium a.</p>
+          <span className='text-[11px] bg-white/10 px-2 py-1 rounded-md border border-black/60'>Place Order</span>
         </section>
 
       </div>
