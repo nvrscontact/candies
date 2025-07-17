@@ -18,7 +18,7 @@ function HomePage() {
        
       {/* hero */}
       <div className='mb-12'>
-        <section className='flex flex-col items-center inter-200 bg-black/30 py-4' >
+        <section className='flex flex-col items-center inter-200 py-4' >
           <h1 className='text-white/50 text-2xl'>Candies Center</h1>
           <span className=' text-white/40 text-xs'>Alacant, Barcelona, Madrid</span>
         </section> 
@@ -27,9 +27,14 @@ function HomePage() {
       {/* newest */}
       <div className='mb-24 flex flex-col items-center'>
 
-        <section className='flex flex-col mx-12 mb-4 text-center border-y py-3 border-white/20'>
-          <h1 className='ml-14 inter-800 text-xl text-white/60 flex items-center gap-[6px] '>Newest Creation <span className='text-[10px] bg-black/70 p-1 '>$ 6.99</span></h1>
-          <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px]'>cereza con aromas tropicales</span>
+        <section className='flex mb-4 text-center border-y py-3 border-white/20'>
+
+         <section className='flex flex-col ml-5'>
+              <h1 className='inter-800 text-xl text-white/60 flex items-center gap-[6px]'>Newest Creation</h1>
+              <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px]'>cereza con aromas tropicales</span>
+            </section>
+            <span className='mt-1 ml-1 text-[9px] bg-black/70 h-fit p-1'>$ 6.99</span>
+
         </section>
 
 
