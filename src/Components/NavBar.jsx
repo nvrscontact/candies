@@ -5,7 +5,7 @@ function NavBar() {
   return (
 
     <>
-    <section className='flex mt-2 mx-2 inter-200 text-[12px]'>
+    <section className='flex mt-1 inter-200 text-[12px] bg-black/20 mx-1'>
       <div className='w-full rounded-b-xl flex gap-4 justify-center py-4 text-white/60'>
       <Link to='/'>Home</Link>
       <Link to='/aboutme'>About Us</Link>
