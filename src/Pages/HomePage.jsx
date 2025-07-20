@@ -18,7 +18,7 @@ function HomePage() {
        
 
       {/* newest */}
-      <div className='mt-12 mb-24 flex flex-col items-center'>
+      <div className='mt-16 mb-28 flex flex-col items-center'>
 
         <section className='flex mb-4 text-center border-y py-3 border-white/20'>
 
@@ -26,7 +26,7 @@ function HomePage() {
               <h1 className='inter-800 text-2xl text-white/60 flex items-center gap-[6px]'>Newest Creation</h1>
               <span className='text-center text-white/50 inter-300 mt-[-3px] text-[12px]'>cereza con aromas tropicales</span>
             </section>
-            <span className='mt-[6px] ml-[6px] text-[9px] bg-black/40 h-fit p-1 inter-200 rounded-md'>$ 6.99</span>
+            <span className='mt-[6px] ml-[6px] text-[10px] bg-black/40 h-fit p-1 inter-200 rounded-md'>$ 6.99</span>
 
         </section>
 
@@ -42,20 +42,20 @@ function HomePage() {
         </section>
 
         
-        <section className='mt-2 px-10 flex flex-col'>
+        <section className='mt-3 px-10 flex flex-col'>
             <div className='flex items-center'>
-              <span className='w-full border mr-3 border-white/10'></span>
+              <span className='w-full border mx-3 border-white/10'></span>
               <img src={Star} alt="" className='h-4' />
               <img src={Star} alt="" className='h-4' />
               <img src={Star} alt="" className='h-4' />
               <img src={Star} alt="" className='h-4' />
               <img src={Star} alt="" className='h-4' />
-              <span className='text-[10px] pl-1 text-white/40 inter-300'>+13</span>
-              <span className='w-full border ml-3 border-white/10'></span>
+              <span className='text-[10px] pl-[2px] text-white/40 inter-300'>+13</span>
+              <span className='w-full border mx-3 border-white/10'></span>
             </div>
-          <p className='text-[9px] text-center text-white/70 inter-200 mt-1 mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.</p>
-          <div className='flex justify-center mt-2'>
-          <span className='w-fit text-[16px] inter-200 bg-white/10 px-[14px] py-[6px] rounded-md'>Place Order</span>
+          <p className='text-[9px] text-center text-white/70 inter-200 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.</p>
+          <div className='flex justify-center'>
+          <span className='w-fit text-[16px] inter-200 bg-black/10 px-[14px] py-[6px] border-white/20 border rounded-xl'>Place Order</span>
           </div>
         </section>
 

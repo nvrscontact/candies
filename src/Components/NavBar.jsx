@@ -26,7 +26,7 @@ function NavBar() {
         <span className='text-[10px] text-white/50 '>Alacant, Barcelona, Madrid</span>
       </div>
       <button onClick={toggleMenu} className='pr-3'> <img src={HamburgerMenu} alt="" className='h-8' />
-        <div ref={menuRef} className='hidden absolute'>
+        <div ref={menuRef} className='hidden absolute right-3'>
           <ul className=' inter-200 text-[12px] bg-white/10 backdrop-blur-xl flex flex-col gap-[2px] text-start border-[2px] border-[#241603] rounded-xl p-1 ml-2 mt-2'>
               <span className='bg-black/50 py-1 px-2 rounded-t-md'><Link to='/'>About us</Link></span>
               <span className='bg-black/50 py-1 px-2 '><Link to='/'>Gallery</Link></span>
