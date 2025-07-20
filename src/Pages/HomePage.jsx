@@ -31,27 +31,32 @@ function HomePage() {
         </section>
 
         <section className='flex relative w-full'>
-        <div className="degraded"></div>
-        <img src={ChocoTwo} alt="" className='h-60 w-fit mx-auto' />
-        <div className='flex flex-col gap-1 items-end absolute right-6 mt-6 inter-200'>
-            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 '>Strawberry</span>
-            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Limonade</span>
-            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Blueberry</span>
-            <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Cherry</span>
-        </div>
+          <div className="degraded"></div>
+          <img src={ChocoTwo} alt="" className='h-60 w-fit mx-auto' />
+          <div className='flex flex-col gap-1 items-end absolute right-7 mt-6 inter-200'>
+              <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 '>Strawberry</span>
+              <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Limonade</span>
+              <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Blueberry</span>
+              <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Cherry</span>
+          </div>
         </section>
 
         
-        <section className='mt-2 px-18 flex flex-col items-center justify-center'>
-          <div className='flex items-center  '>
-            <img src={Star} alt="" className='h-4' />
-            <img src={Star} alt="" className='h-4' />
-            <img src={Star} alt="" className='h-4' />
-            <img src={Star} alt="" className='h-4' />
-            <img src={Star} alt="" className='h-4' />
+        <section className='mt-2 px-10 flex flex-col'>
+            <div className='flex items-center'>
+              <span className='w-full border mr-3 border-white/10'></span>
+              <img src={Star} alt="" className='h-4' />
+              <img src={Star} alt="" className='h-4' />
+              <img src={Star} alt="" className='h-4' />
+              <img src={Star} alt="" className='h-4' />
+              <img src={Star} alt="" className='h-4' />
+              <span className='text-[10px] pl-1 text-white/40 inter-300'>+13</span>
+              <span className='w-full border ml-3 border-white/10'></span>
+            </div>
+          <p className='text-[9px] text-center text-white/70 inter-200 mt-1 mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.</p>
+          <div className='flex justify-center mt-2'>
+          <span className='w-fit text-[16px] inter-200 bg-white/10 px-[14px] py-[6px] rounded-md'>Place Order</span>
           </div>
-          <p className='text-[9px] text-white/70 text-center inter-200 mt-1 mb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium a.</p>
-          <span className='text-[11px] bg-white/10 px-2 py-1 rounded-md border border-white/20'>Place Order</span>
         </section>
 
       </div>
