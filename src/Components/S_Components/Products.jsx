@@ -18,7 +18,7 @@ function Products({
     paragraph,
 }) {
   return (
-     <div className={` flex flex-col items-center ${bg} py-18`} >
+     <div className={`flex flex-col items-center ${bg} py-18`} >
     
             <section className='flex mb-4 text-center border-y py-3 border-white/20'>
     
@@ -46,17 +46,25 @@ function Products({
     
             
             <section className='mt-3 px-10 flex flex-col'>
-                <div className='flex items-center'>
-                  <span className='w-full border mx-3 border-white/10'></span>
-                  <img src={star_one} alt="" className='h-4' />
-                  <img src={star_two} alt="" className='h-4' />
-                  <img src={star_three} alt="" className='h-4' />
-                  <img src={star_four} alt="" className='h-4' />
-                  <img src={star_five} alt="" className='h-4' />
-                  <span className='text-[10px] pl-[2px] text-white/50 inter-300'>{stars_number}</span>
-                  <span className='w-full border mx-3 border-white/10'></span>
+                <div className='flex justify-center items-center'>
+
+                  <span className='border border-white/30 w-18 h-fit mr-4'></span>
+                  
+                    <section className='flex flex-col items-center gap-[2px] '>
+                      <div className='flex items-center'>
+                        <img src={star_one} alt="" className='h-4' />
+                        <img src={star_two} alt="" className='h-4' />
+                        <img src={star_three} alt="" className='h-4' />
+                        <img src={star_four} alt="" className='h-4' />
+                        <img src={star_five} alt="" className='h-4' />
+                      </div>
+                      <span className='text-[9px] pl-[2px] text-white/50 inter-200'>{stars_number} reviews</span>
+                    </section>
+
+                  <span className='border border-white/30 w-18 h-fit ml-4'></span>
+
                 </div>
-              <p className='text-[9px] text-center text-white/70 inter-200 my-3'>{paragraph}</p>
+              <p className='text-[9px] text-center text-white/70 inter-200 mb-3 mt-2'>{paragraph}</p>
               <div className='flex justify-center items-center gap-5'>
                 <img src={ShoppingCart} alt="" className='h-5' />
               <span className='w-fit text-[16px] inter-200 bg-white/10 px-[14px] py-[6px] rounded-xl'>Place Order</span>

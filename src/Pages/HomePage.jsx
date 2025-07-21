@@ -87,7 +87,7 @@ function HomePage() {
   
 
         {/* payments */}
-        <section className='flex flex-col items-center gap-1 mb-4 mt-10'>
+        <section className='flex flex-col items-center gap-1 mt-10 mb-5'>
           <span className='text-[10px] text-white/70 '>Pay with your favorites</span>
           <div className='flex gap-2 [&>*]:h-7 '>
             <img src={ApplePay} alt="" />
