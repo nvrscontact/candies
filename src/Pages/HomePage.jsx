@@ -11,6 +11,7 @@ import Star from '../assets/star.svg'
 import CupcakeThree from '../assets/cupcake_three.png'
 import CupcakeFour from '../assets/cupcake_four.png'
 import CupcakeFive from '../assets/cupcake_five.png'
+import CupcakeSix from '../assets/cupcake_six.png'
 
 import Products from '../Components/S_Components/Products'
 
@@ -22,24 +23,8 @@ function HomePage() {
     <section className=' '>
        
 
-      
-      
-      <Products 
-      
-      premise={'Newest Creation'} 
-      titleProduct={'sabor a cerezas tropicales'} 
-      imgProduct={CupcakeFive} 
-      price={'$3.89'}
-      flavours={['Strawberry','Blueberry','Limonade','Cherry']}
-      star_one={Star}
-      star_two={Star}
-      star_three={Star}
-      star_four={Star}
-      star_five={Star}
-      stars_number={'+23'}
-      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
-     
-      <Products 
+     <Products 
+      py={'pt-16 pb-20'}
       bg='bg-black/50'
       premise={'Newest Creation'} 
       titleProduct={'sabor a cerezas tropicales'} 
@@ -53,12 +38,30 @@ function HomePage() {
       star_five={Star}
       stars_number={'+23'}
       paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
-     
-      <Products 
-      bg={''}
+      
+      <Products
+      py={'py-28'} 
+      bg={'bg-black/70'}
       premise={'Newest Creation'} 
       titleProduct={'sabor a cerezas tropicales'} 
-      imgProduct={CupcakeFour} 
+      imgProduct={CupcakeFive} 
+      price={'$3.89'}
+      flavours={['Strawberry','Blueberry','Limonade','Cherry']}
+      star_one={Star}
+      star_two={Star}
+      star_three={Star}
+      star_four={Star}
+      star_five={Star}
+      stars_number={'+23'}
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
+     
+     
+      <Products 
+      py={'py-28'}
+      bg={'bg-black/50'}
+      premise={'Newest Creation'} 
+      titleProduct={'sabor a cerezas tropicales'} 
+      imgProduct={CupcakeSix} 
       price={'$3.89'}
       flavours={['Strawberry','Blueberry','Limonade','Cherry']}
       star_one={Star}
@@ -69,8 +72,9 @@ function HomePage() {
       stars_number={'+23'}
       paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
       
-      <Products 
-      bg={'bg-black/50'}
+      <Products
+      py={'py-28'} 
+      bg={'bg-black/70'}
       premise={'Newest Creation'} 
       titleProduct={'sabor a cerezas tropicales'} 
       imgProduct={CupcakeFour} 
@@ -87,7 +91,7 @@ function HomePage() {
   
 
         {/* payments */}
-        <section className='flex flex-col items-center gap-1 mt-10 mb-5'>
+        <section className='flex flex-col items-center gap-1 mt-10 mb-3'>
           <span className='text-[10px] text-white/70 '>Pay with your favorites</span>
           <div className='flex gap-2 [&>*]:h-7 '>
             <img src={ApplePay} alt="" />

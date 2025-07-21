@@ -4,6 +4,7 @@ import Heart from '../../assets/heart.svg'
 
 function Products({
     bg,
+    py,
     premise,
     titleProduct, 
     price, 
@@ -18,15 +19,15 @@ function Products({
     paragraph,
 }) {
   return (
-     <div className={`flex flex-col items-center ${bg} py-18`} >
+     <div className={`flex flex-col items-center ${bg} ${py}`} >
     
             <section className='flex mb-4 text-center border-y py-3 border-white/20'>
     
-                <section className='flex flex-col ml-5'>
-                  <h1 className='inter-800 text-2xl text-white/80 flex items-center gap-[6px]'>{premise} </h1>
+                <section className='flex flex-col ml-7'>
+                  <h1 className='inter-800 text-[26px] text-white/80 flex items-center gap-[6px]'>{premise} </h1>
                   <span className='text-center text-white/50 inter-300 mt-[-3px] text-[12px]'>{titleProduct} </span>
                 </section>
-                <span className='mt-[6px] ml-[6px] text-[10px] bg-black/40 h-fit p-1 inter-200 rounded-md'>{price}</span>
+                <span className='mt-[10px] ml-[6px] text-[10px] bg-white/10 h-fit p-1 inter-200 rounded-md'>{price}</span>
     
             </section>
     
@@ -48,7 +49,7 @@ function Products({
             <section className='mt-3 px-10 flex flex-col'>
                 <div className='flex justify-center items-center'>
 
-                  <span className='border border-white/30 w-18 h-fit mr-4'></span>
+                  <span className='border border-white/30 w-18 h-fit mr-3'></span>
                   
                     <section className='flex flex-col items-center gap-[2px] '>
                       <div className='flex items-center'>
@@ -61,13 +62,13 @@ function Products({
                       <span className='text-[9px] pl-[2px] text-white/50 inter-200'>{stars_number} reviews</span>
                     </section>
 
-                  <span className='border border-white/30 w-18 h-fit ml-4'></span>
+                  <span className='border border-white/30 w-18 h-fit ml-3'></span>
 
                 </div>
               <p className='text-[9px] text-center text-white/70 inter-200 mb-3 mt-2'>{paragraph}</p>
-              <div className='flex justify-center items-center gap-5'>
+              <div className='flex justify-center items-center gap-4'>
                 <img src={ShoppingCart} alt="" className='h-5' />
-              <span className='w-fit text-[16px] inter-200 bg-white/10 px-[14px] py-[6px] rounded-xl'>Place Order</span>
+              <span className='w-fit text-[14px] inter-200 bg-white/10 px-[14px] py-[6px] rounded-xl'>Place Order</span>
                 <img src={Heart} alt="" className='h-5' />
               </div>
             </section>
