@@ -1,6 +1,8 @@
 import React, {useRef} from 'react'
 import {Link} from 'react-router-dom'
 import HamburgerMenu from '../assets/hamburger_right.svg'
+import User from '../assets/user.jpg'
+
 
 function NavBar() {
 
@@ -28,15 +30,14 @@ function NavBar() {
       <div className='flex items-center gap-3'>
 
       <section>
-        <span className='text-[12px] text-white/40 border border-white/20 rounded-md py-1 px-2'> Closed</span>
+        <img src={User} alt="" className='h-[28px] rounded-2xl border border-white/30' />
       </section>
       <button onClick={toggleMenu} className='pr-3'> <img src={HamburgerMenu} alt="" className='h-8' />
         <div ref={menuRef} className='hidden absolute right-3'>
-          <ul className=' inter-200 text-[12px] bg-white/10 backdrop-blur-xl flex flex-col gap-[2px] text-start border-[2px] border-[#241603] rounded-xl p-1 ml-2 mt-2'>
-              <span className='bg-black/50 py-1 px-2 rounded-t-md'><Link to='/'>About us</Link></span>
-              <span className='bg-black/50 py-1 px-2 '><Link to='/'>Gallery</Link></span>
-              <span className='bg-black/50 py-1 px-2 '><Link to='/'>About us</Link></span>
-              <span className='bg-black/50 py-1 px-2 rounded-b-md'><Link to='/'>Home</Link></span>
+          <ul className=' inter-200 text-[16px] bg-black/40 backdrop-blur-xl flex flex-col gap-1 text-start pr-1 pl-2 py-2'>
+              <span className=' py-1 px-2 '><Link to='/'>Gallery</Link></span>
+              <span className=' py-1 px-2 '><Link to='/'>About us</Link></span>
+              <span className=' py-1 px-2'><Link to='/'>Home</Link></span>
           </ul>
         </div>
       </button>

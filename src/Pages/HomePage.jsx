@@ -88,18 +88,8 @@ function HomePage() {
       stars_number={'+23'}
       paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
         
-  
-
-        {/* payments */}
-        <section className='flex flex-col items-center gap-1 mt-10 mb-3'>
-          <span className='text-[10px] text-white/70 '>Pay with your favorites</span>
-          <div className='flex gap-2 [&>*]:h-7 '>
-            <img src={ApplePay} alt="" />
-            <img src={Mastercard} alt="" />
-            <img src={AmericanExpress} alt="" />
-            <img src={Paypal} alt="" />
-            <img src={Visa} alt="" />
-          </div>
+        <section className='my-10'>
+          <p className='text-[10px] text-white/60 text-center px-10 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt non unde porro delectus a esse perspiciatis reiciendis architecto cupiditate numquam!</p>
         </section>
       
     </section>
