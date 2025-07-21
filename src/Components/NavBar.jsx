@@ -19,7 +19,7 @@ function NavBar() {
 
     <>
 
-    <section className='bg-black/30 border-b border-white/20 flex justify-between py-3 '>
+    <section className=' bg-black/30 border-b border-white/20 flex justify-between py-3 '>
 
       <div className='flex flex-col pl-6'>
         <h1 className='text-white/70 text-[16px] '>Candies Center<span className='align-top text-[12px] ' >®</span></h1>

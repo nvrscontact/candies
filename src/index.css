@@ -5,8 +5,8 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at center, rgba(160, 160, 160, 0.2) 0%, transparent 60%);
-    filter: blur(20px);
+    background: radial-gradient(circle at center, rgba(160, 160, 160, 0.3) 0%, transparent 60%);
+    filter: blur(25px);
     mix-blend-mode: screen;
     pointer-events: none;
 }

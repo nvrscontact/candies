@@ -1,6 +1,5 @@
 import React from 'react'
 
-import ChocoTwo from '../assets/chocotwoo.png'
 import ApplePay from '../assets/apple_pay.svg'
 import AmericanExpress from '../assets/american_express_pay.svg'
 import Paypal from '../assets/paypal_pay.svg'
@@ -8,6 +7,12 @@ import Visa from '../assets/visa_pay.svg'
 import Mastercard from '../assets/mastercard_pay.svg'
 
 import Star from '../assets/star.svg'
+
+import CupcakeThree from '../assets/cupcake_three.png'
+import CupcakeFour from '../assets/cupcake_four.png'
+import CupcakeFive from '../assets/cupcake_five.png'
+
+import Products from '../Components/S_Components/Products'
 
 
 function HomePage() {
@@ -17,83 +22,74 @@ function HomePage() {
     <section className=' '>
        
 
-      {/* newest */}
-      <div className='mt-16 mb-28 flex flex-col items-center'>
-
-        <section className='flex mb-4 text-center border-y py-3 border-white/20'>
-
-            <section className='flex flex-col ml-5'>
-              <h1 className='inter-800 text-2xl text-white/60 flex items-center gap-[6px]'>Newest Creation</h1>
-              <span className='text-center text-white/50 inter-300 mt-[-3px] text-[12px]'>cereza con aromas tropicales</span>
-            </section>
-            <span className='mt-[6px] ml-[6px] text-[10px] bg-black/40 h-fit p-1 inter-200 rounded-md'>$ 6.99</span>
-
-        </section>
-
-        <section className='flex relative w-full'>
-          <div className="degraded"></div>
-          <img src={ChocoTwo} alt="" className='h-60 w-fit mx-auto' />
-          <div className='flex flex-col gap-1 items-end absolute right-7 mt-6 inter-200'>
-              <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 '>Strawberry</span>
-              <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Limonade</span>
-              <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Blueberry</span>
-              <span className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10'>Cherry</span>
-          </div>
-        </section>
-
+      
+      
+      <Products 
+      
+      premise={'Newest Creation'} 
+      titleProduct={'sabor a cerezas tropicales'} 
+      imgProduct={CupcakeFive} 
+      price={'$3.89'}
+      flavours={['Strawberry','Blueberry','Limonade','Cherry']}
+      star_one={Star}
+      star_two={Star}
+      star_three={Star}
+      star_four={Star}
+      star_five={Star}
+      stars_number={'+23'}
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
+     
+      <Products 
+      bg='bg-black/50'
+      premise={'Newest Creation'} 
+      titleProduct={'sabor a cerezas tropicales'} 
+      imgProduct={CupcakeThree} 
+      price={'$3.89'}
+      flavours={['Strawberry','Blueberry','Limonade','Cherry']}
+      star_one={Star}
+      star_two={Star}
+      star_three={Star}
+      star_four={Star}
+      star_five={Star}
+      stars_number={'+23'}
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
+     
+      <Products 
+      bg={''}
+      premise={'Newest Creation'} 
+      titleProduct={'sabor a cerezas tropicales'} 
+      imgProduct={CupcakeFour} 
+      price={'$3.89'}
+      flavours={['Strawberry','Blueberry','Limonade','Cherry']}
+      star_one={Star}
+      star_two={Star}
+      star_three={Star}
+      star_four={Star}
+      star_five={Star}
+      stars_number={'+23'}
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
+      
+      <Products 
+      bg={'bg-black/50'}
+      premise={'Newest Creation'} 
+      titleProduct={'sabor a cerezas tropicales'} 
+      imgProduct={CupcakeFour} 
+      price={'$3.89'}
+      flavours={['Strawberry','Blueberry','Limonade','Cherry']}
+      star_one={Star}
+      star_two={Star}
+      star_three={Star}
+      star_four={Star}
+      star_five={Star}
+      stars_number={'+23'}
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
         
-        <section className='mt-3 px-10 flex flex-col'>
-            <div className='flex items-center'>
-              <span className='w-full border mx-3 border-white/10'></span>
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star} alt="" className='h-4' />
-              <img src={Star} alt="" className='h-4' />
-              <span className='text-[10px] pl-[2px] text-white/40 inter-300'>+13</span>
-              <span className='w-full border mx-3 border-white/10'></span>
-            </div>
-          <p className='text-[9px] text-center text-white/70 inter-200 my-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.</p>
-          <div className='flex justify-center'>
-          <span className='w-fit text-[16px] inter-200 bg-black/10 px-[14px] py-[6px] border-white/20 border rounded-xl'>Place Order</span>
-          </div>
-        </section>
-
-      </div>
-
-
-        {/* summer */}
-      <div className='mb-24 flex flex-col items-center'>
-
-        <section className='flex mb-4 text-center border-y py-3 border-white/20'>
-
-            <section className='flex flex-col ml-5'>
-              <h1 className='inter-800 text-xl text-white/60 flex items-center gap-[6px]'>Newest Creation</h1>
-              <span className='text-center text-white/50 inter-300 mt-[-3px] text-[10px]'>cereza con aromas tropicales</span>
-            </section>
-            <span className='mt-1 ml-1 text-[9px] bg-black/70 h-fit p-1'>$ 6.99</span>
-
-        </section>
-
-
-        <img src={ChocoTwo} alt="" className='h-52 w-fit' />
-
-
-      </div>
-
-          {/* hero */}
-      <div className='mb-12 mt-2'>
-        <section className='flex flex-col items-center inter-200 py-4' >
-          <h1 className='text-white/50 text-2xl'>Candies Center</h1>
-          <span className=' text-white/40 text-xs'>Alacant, Barcelona, Madrid</span>
-        </section> 
-      </div>
   
 
         {/* payments */}
         <section className='flex flex-col items-center gap-1 mb-4 mt-10'>
-          <span className='text-[9px] text-white/50 '>Pay with your favorites</span>
-          <div className='flex gap-2 [&>*]:h-6 '>
+          <span className='text-[10px] text-white/70 '>Pay with your favorites</span>
+          <div className='flex gap-2 [&>*]:h-7 '>
             <img src={ApplePay} alt="" />
             <img src={Mastercard} alt="" />
             <img src={AmericanExpress} alt="" />
