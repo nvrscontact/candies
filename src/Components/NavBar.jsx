@@ -21,7 +21,7 @@ function NavBar() {
 
     <>
 
-    <section className=' bg-black/70 flex justify-between py-3 '>
+    <section className=' bg-black/70 flex justify-between py-4 '>
 
       <div className='flex flex-col pl-6'>
         <h1 className='text-white/70 text-[18px] '>Candies Center<span className='align-top text-[12px] ' >®</span></h1>
@@ -30,7 +30,7 @@ function NavBar() {
       <div className='flex items-center gap-3'>
 
       <section>
-        <img src={User} alt="" className='h-[28px] rounded-2xl border border-white/30' />
+        <img src={User} alt="" className='h-[28px] rounded-2xl' />
       </section>
       <button onClick={toggleMenu} className='pr-3'> <img src={HamburgerMenu} alt="" className='h-8' />
         <div ref={menuRef} className='hidden absolute right-3'>

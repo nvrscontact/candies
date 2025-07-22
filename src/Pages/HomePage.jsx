@@ -37,7 +37,7 @@ function HomePage() {
       star_four={Star}
       star_five={Star}
       stars_number={'+23'}
-      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
       
       <Products
       py={'py-28'} 
@@ -53,7 +53,7 @@ function HomePage() {
       star_four={Star}
       star_five={Star}
       stars_number={'+23'}
-      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
      
      
       <Products 
@@ -86,7 +86,7 @@ function HomePage() {
       star_four={Star}
       star_five={Star}
       stars_number={'+23'}
-      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
         
         <section className='my-10'>
           <p className='text-[10px] text-white/60 text-center px-10 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt non unde porro delectus a esse perspiciatis reiciendis architecto cupiditate numquam!</p>

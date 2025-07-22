@@ -1,6 +1,7 @@
 import React from 'react'
 import ShoppingCart from '../../assets/shopping_cart.svg'
 import Heart from '../../assets/heart.svg'
+import Moreinfo from '../../assets/moreinfo.svg'
 
 function Products({
     bg,
@@ -27,7 +28,7 @@ function Products({
                   <h1 className='inter-800 text-[26px] text-white/80 flex items-center gap-[6px]'>{premise} </h1>
                   <span className='text-center text-white/50 inter-300 mt-[-3px] text-[12px]'>{titleProduct} </span>
                 </section>
-                <span className='mt-[10px] ml-[6px] text-[10px] bg-white/10 h-fit p-1 inter-200 rounded-md'>{price}</span>
+                <span className='mt-[10px] ml-[6px] text-[10px] text-black bg-white/40 h-fit p-1 inter-500 rounded-md'>{price}</span>
     
             </section>
     
@@ -65,11 +66,10 @@ function Products({
                   <span className='border border-white/30 w-18 h-fit ml-3'></span>
 
                 </div>
-              <p className='text-[9px] text-center text-white/70 inter-200 mb-3 mt-2'>{paragraph}</p>
-              <div className='flex justify-center items-center gap-4'>
-                <img src={ShoppingCart} alt="" className='h-5' />
+              <p className='text-[9px] text-center text-white/60 inter-200 mb-3 mt-2'>{paragraph}</p>
+              <div className='flex justify-center items-center ml-6'>
               <span className='w-fit text-[14px] inter-200 bg-white/10 px-[14px] py-[6px] rounded-xl'>Place Order</span>
-                <img src={Heart} alt="" className='h-5' />
+              <span className='text-white/30 text-[10px] ml-3'><img src={Moreinfo} alt="" className='h-3' /> </span>
               </div>
             </section>
     
