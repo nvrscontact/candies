@@ -23,7 +23,7 @@ function HomePage() {
     <section className=' '>
     
     <Products
-      py={'py-28'} 
+      py={'pt-16 pb-24'} 
       bg={'bg-black/70'}
       premise={'Newest Creation'} 
       titleProduct={'sabor a cerezas tropicales'} 
@@ -39,7 +39,7 @@ function HomePage() {
       paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
 
      <Products 
-      py={'py-20'}
+      py={'py-30'}
       bg='bg-black/50'
       premise={'Magnificent Essence'} 
       titleProduct={'sabor a cerezas tropicales'} 
@@ -57,7 +57,7 @@ function HomePage() {
      
       
       <Products
-      py={'py-28'} 
+      py={'py-30'} 
       bg={'bg-black/70'}
       premise={'Summer Surprise'} 
       titleProduct={'sabor a cerezas tropicales'} 
