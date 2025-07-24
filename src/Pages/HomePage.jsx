@@ -30,7 +30,7 @@ function HomePage() {
 
       <Products 
         py={'py-30'}
-        bg='bg-black/50'
+        bg='bg-[#1d100c] '
         premise={'Magnificent Essence'} 
         titleProduct={'sabor a cerezas tropicales'} 
         imgProduct={CupcakeThree} 

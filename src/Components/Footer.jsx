@@ -8,9 +8,9 @@ import Mastercard from '../assets/mastercard_pay.svg'
 function Footer() {
   return (
         <>
-        <div className='inter-200 border-t border-white/40 '>
+        <div className='inter-200 '>
             
-            <section className='bg-black/70 pl-6 pt-6'>
+            <section className='bg-[#1f1814] pl-6 pt-6'>
                 <li className='flex gap-3 [&>*>*]:h-[14px] '>
                     <a href="https://facebook.com"><img src="/images/youtube.svg" alt="" /></a>
                     <a href="https://facebook.com"><img src="/images/spotify.svg" alt=""  /></a>
@@ -20,7 +20,7 @@ function Footer() {
                 </li>
             </section>
 
-            <section className='bg-black/70 p-6'>
+            <section className='bg-[#1f1814] p-6'>
                 
                 <section className='flex gap-5 text-[10px] text-white/40 mb-5 '>
                     <div className='flex flex-col gap-2'>
