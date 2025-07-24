@@ -12,12 +12,12 @@ function HomePage() {
     
     <section className=' '>
     
-      <Products
-        py={'pt-16 pb-24'} 
-        bg={'bg-black/70'}
-        premise={'Newest Creation'} 
+      <Products 
+        py={'pt-16 pb-24'}
+        bg='bg-black/70 '
+        premise={'Magnificent Essence'} 
         titleProduct={'sabor a cerezas tropicales'} 
-        imgProduct={CupcakeFive} 
+        imgProduct={CupcakeThree} 
         price={'$3.89'}
         flavours={['Strawberry','Blueberry','Limonade','Cherry']}
         star_one={Star}
@@ -28,12 +28,12 @@ function HomePage() {
         stars_number={'+23'}
         paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
 
-      <Products 
-        py={'py-30'}
-        bg='bg-[#1d100c] '
-        premise={'Magnificent Essence'} 
+      <Products
+        py={'py-30'} 
+        bg={'bg-black/70'}
+        premise={'Newest Creation'} 
         titleProduct={'sabor a cerezas tropicales'} 
-        imgProduct={CupcakeThree} 
+        imgProduct={CupcakeFive} 
         price={'$3.89'}
         flavours={['Strawberry','Blueberry','Limonade','Cherry']}
         star_one={Star}

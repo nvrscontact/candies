@@ -22,10 +22,10 @@ function NavBar() {
 
     <>
 
-    <section className='bg-[#1f1814] flex justify-between py-[10px]'>
+    <section className='bg-[#1f1814] flex justify-between py-[10px] border-b border-white/20'>
 
       <div className='flex flex-col pl-6'>
-        <h1 className='text-white/70 text-[18px] '>Candies Center<span className='align-top text-[12px] ' >®</span></h1>
+        <h1 className='text-white/70 text-[18px] '>Candies Center<span className='align-top text-[11px] ml-[2px] ' >®</span></h1>
         <span className='text-[9px] mt-[-2px] text-white/40 '>Alacant, Barcelona, Madrid</span>
       </div>
       <div className='flex items-center gap-3'>
