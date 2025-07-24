@@ -68,7 +68,7 @@ function Products({
                 </div>
               <p className='text-[9px] text-center text-white/60 inter-200 mb-3 mt-2'>{paragraph}</p>
               <div className='flex justify-center items-center ml-6'>
-              <span className='w-fit text-[14px] inter-200 bg-white/10 px-[14px] py-[6px] rounded-xl'>Place Order</span>
+              <span className='w-fit text-[14px] inter-200 bg-white/10 border border-white/20 px-[14px] py-[6px] rounded-xl'>Place Order</span>
               <span className='text-white/30 text-[10px] ml-3'><img src={Moreinfo} alt="" className='h-3' /> </span>
               </div>
             </section>

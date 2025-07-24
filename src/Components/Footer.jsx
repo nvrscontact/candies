@@ -37,7 +37,7 @@ function Footer() {
                     </div>
                 </section>
 
-                <p className='text-white/50 text-[10px] mb-2'>Located in Spain</p>
+                <p className='text-white/50 text-[10px] mb-2 border-b border-white/20 w-fit pb-1'>Located in Spain</p>
                 <section className='text-white/40 mb-4 flex flex-col gap-1 text-[9px] '>
                     <p className=''>Alicante:  <span>Calle Na Saurina de Entenza 60, Alcoy</span></p>
                     <p className=''>Madrid:  <span>Calle Na Saurina de Entenza 60, Alcoy</span></p>
