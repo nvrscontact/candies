@@ -8,9 +8,9 @@ import Mastercard from '../assets/mastercard_pay.svg'
 function Footer() {
   return (
         <>
-        <div className='inter-200 '>
+        <div className='inter-200 border-t border-white/40 '>
             
-            <section className='bg-black/50 pl-6 pt-6'>
+            <section className='bg-black/70 pl-6 pt-6'>
                 <li className='flex gap-3 [&>*>*]:h-[14px] '>
                     <a href="https://facebook.com"><img src="/images/youtube.svg" alt="" /></a>
                     <a href="https://facebook.com"><img src="/images/spotify.svg" alt=""  /></a>
@@ -20,7 +20,7 @@ function Footer() {
                 </li>
             </section>
 
-            <section className='bg-black/50 p-6'>
+            <section className='bg-black/70 p-6'>
                 
                 <section className='flex gap-5 text-[10px] text-white/40 mb-5 '>
                     <div className='flex flex-col gap-2'>
@@ -37,30 +37,29 @@ function Footer() {
                     </div>
                 </section>
 
-                <section className='text-white/50 mb-4 text-[9px] '>
+                <section className='text-white/50 mb-4 flex flex-col gap-1 text-[9px] '>
                     <p className=''>Alicante:  <span>Calle Na Saurina de Entenza 60, Alcoy</span></p>
                     <p className=''>Madrid:  <span>Calle Na Saurina de Entenza 60, Alcoy</span></p>
                     <p className=''>Barcelona:  <span>Calle Na Saurina de Entenza 60, Alcoy</span></p>
                 </section>
 
 
-                    <p className='text-white/40 text-[8px] mb-4'>Located in Spain.</p>
+
+                <p className='text-white/40 text-[8px] mb-2'>Located in Spain.</p>
+                <section className='flex flex-col gap-1 mb-4'>
+                        <div className='flex gap-2 [&>*]:h-6 '>
+                        <img src={ApplePay} alt="" />
+                        <img src={Mastercard} alt="" />
+                        <img src={AmericanExpress} alt="" />
+                        <img src={Paypal} alt="" />
+                        <img src={Visa} alt="" />
+                        </div>
+                </section>
                 
                 <section className='flex justify-between'>
-                <div>
-                    <p className='text-white/40 text-[8px]'>Copyright © 2025 Candies Center. <br /> All Right Reserved.</p>
-                </div>
-                <div>
-                    <section className='flex flex-col items-center gap-1'>
-                            <div className='flex gap-2 [&>*]:h-6 '>
-                            <img src={ApplePay} alt="" />
-                            <img src={Mastercard} alt="" />
-                            <img src={AmericanExpress} alt="" />
-                            <img src={Paypal} alt="" />
-                            <img src={Visa} alt="" />
-                            </div>
-                    </section>
-                </div>
+                    <div>
+                        <p className='text-white/40 text-[8px]'>Copyright © 2025 Candies Center. <br /> All Right Reserved.</p>
+                    </div>
                 </section>
             
             </section>

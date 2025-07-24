@@ -21,25 +21,8 @@ function HomePage() {
     <>
     
     <section className=' '>
-       
-
-     <Products 
-      py={'pt-16 pb-20'}
-      bg='bg-black/50'
-      premise={'Newest Creation'} 
-      titleProduct={'sabor a cerezas tropicales'} 
-      imgProduct={CupcakeThree} 
-      price={'$3.89'}
-      flavours={['Strawberry','Blueberry','Limonade','Cherry']}
-      star_one={Star}
-      star_two={Star}
-      star_three={Star}
-      star_four={Star}
-      star_five={Star}
-      stars_number={'+23'}
-      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
-      
-      <Products
+    
+    <Products
       py={'py-28'} 
       bg={'bg-black/70'}
       premise={'Newest Creation'} 
@@ -54,14 +37,13 @@ function HomePage() {
       star_five={Star}
       stars_number={'+23'}
       paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
-     
-     
-      <Products 
-      py={'py-28'}
-      bg={'bg-black/50'}
-      premise={'Newest Creation'} 
+
+     <Products 
+      py={'py-20'}
+      bg='bg-black/50'
+      premise={'Magnificent Essence'} 
       titleProduct={'sabor a cerezas tropicales'} 
-      imgProduct={CupcakeSix} 
+      imgProduct={CupcakeThree} 
       price={'$3.89'}
       flavours={['Strawberry','Blueberry','Limonade','Cherry']}
       star_one={Star}
@@ -70,12 +52,14 @@ function HomePage() {
       star_four={Star}
       star_five={Star}
       stars_number={'+23'}
-      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary.'} />
+      paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
+     
+     
       
       <Products
       py={'py-28'} 
       bg={'bg-black/70'}
-      premise={'Newest Creation'} 
+      premise={'Summer Surprise'} 
       titleProduct={'sabor a cerezas tropicales'} 
       imgProduct={CupcakeFour} 
       price={'$3.89'}

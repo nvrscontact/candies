@@ -26,9 +26,9 @@ function Products({
     
                 <section className='flex flex-col ml-7'>
                   <h1 className='inter-800 text-[26px] text-white/80 flex items-center gap-[6px]'>{premise} </h1>
-                  <span className='text-center text-white/50 inter-300 mt-[-3px] text-[12px]'>{titleProduct} </span>
+                  <span className='text-center text-white/50 inter-300 mt-[-4px] ml-3 text-[12px]'>{titleProduct} </span>
                 </section>
-                <span className='mt-[10px] ml-[6px] text-[10px] text-black bg-white/40 h-fit p-1 inter-500 rounded-md'>{price}</span>
+                <span className='mt-[10px] ml-[6px] text-[10px] text-white/70 bg-white/10 h-fit p-1 inter-500 rounded-md'>{price}</span>
     
             </section>
     
