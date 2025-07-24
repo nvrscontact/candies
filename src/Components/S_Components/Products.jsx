@@ -60,7 +60,7 @@ function Products({
                         <img src={star_four} alt="" className='h-4' />
                         <img src={star_five} alt="" className='h-4' />
                       </div>
-                      <span className='text-[9px] pl-[2px] text-white/50 inter-200'>{stars_number} reviews</span>
+                      <span className='text-[8px] pl-[2px] text-white/50 inter-200'>{stars_number} reviews</span>
                     </section>
 
                   <span className='border border-white/30 w-18 h-fit ml-3'></span>

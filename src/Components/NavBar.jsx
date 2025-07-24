@@ -22,7 +22,7 @@ function NavBar() {
 
     <>
 
-    <section className=' bg-black/70 flex justify-between py-4 border-b border-white/20'>
+    <section className='bg-[#251c1c] flex justify-between py-[12px] border-b border-white/20'>
 
       <div className='flex flex-col pl-6'>
         <h1 className='text-white/70 text-[18px] '>Candies Center<span className='align-top text-[12px] ' >®</span></h1>
