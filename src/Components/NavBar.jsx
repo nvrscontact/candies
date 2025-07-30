@@ -29,13 +29,10 @@ function NavBar() {
 
       <div className='flex gap-4 items-center pr-4'>
         <details className='relative'>
-          <summary className='list-none' ><img src={Moreinfo} alt="" className='h-[14px] ' /></summary>
-          <p className='absolute'>que ocurre</p>
+          <summary className='list-none' ><img src={Person} alt="" className='h-[28px] rounded-2xl'/> <span className='bg-green-500'></span> </summary>
+          <p className='absolute bg-black/70 w-full'>que ocurre</p>
         </details>
-        <section className='flex gap-1 items-center relative'>
-          <img src={bagWhite} alt="" className='h-4' />
-          <span className='text-white/60 absolute border-b border-white/40 ml-6'>26</span>
-        </section>
+      
       </div>
 
       <div className='flex flex-col items-center inter-300'>
@@ -43,9 +40,11 @@ function NavBar() {
         <span className='text-white/40 text-[9px]'>Alacant - Barcelona - Madrid</span>
       </div>
       
-      <div className='flex gap-4 items-center'>
-        <img src={bellWhite} alt="" className='h-5' />
-        <img src={Person} alt="" className='h-[28px] rounded-2xl' />
+      <div className='flex gap-4 items-center pl-6'>
+        <section className='flex gap-3 items-center relative'>
+          <span className='text-white/60 absolute right-6 '>2</span>
+          <img src={bagWhite} alt="" className='h-4' />
+        </section>
       </div>
 
 
