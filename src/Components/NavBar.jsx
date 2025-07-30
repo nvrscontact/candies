@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom'
 import HamburgerMenu from '../assets/hamburger_right.svg'
 import MoreLeft from '../assets/more_left.svg'
 import Person from '../assets/person.jpg'
+import Moreinfo from '../assets/moreinfo.svg'
+import bagWhite from '../assets/bagWhite.svg'
+import bellWhite from '../assets/bellWhite.svg'
 
 
 function NavBar() {
@@ -22,30 +25,31 @@ function NavBar() {
 
     <>
 
-    <section className='bg-[#1f1814] flex justify-between py-[10px] border-b border-white/20'>
+    <header className='bg-[#1a1411] flex justify-between items-center py-[10px] px-5'>
 
-      <div className='flex flex-col pl-6'>
-        <h1 className='text-white/70 text-[18px] '>Candies Center<span className='align-top text-[11px] ml-[2px] ' >®</span></h1>
-        <span className='text-[9px] mt-[-2px] text-white/40 '>Alacant, Barcelona, Madrid</span>
+      <div className='flex gap-4 items-center pr-4'>
+        <details className='relative'>
+          <summary className='list-none' ><img src={Moreinfo} alt="" className='h-[14px] ' /></summary>
+          <p className='absolute'>que ocurre</p>
+        </details>
+        <section className='flex gap-1 items-center relative'>
+          <img src={bagWhite} alt="" className='h-4' />
+          <span className='text-white/60 absolute border-b border-white/40 ml-6'>26</span>
+        </section>
       </div>
-      <div className='flex items-center gap-3'>
 
-{/*       <button onClick={toggleMenu} className=''> <img src={MoreLeft} alt="" className='h-5' />
-        <div ref={menuRef} className='hidden absolute right-3'>
-          <ul className=' inter-200 text-[16px] bg-black/40 backdrop-blur-xl flex flex-col gap-1 text-start pr-1 pl-2 py-2'>
-              <span className=' py-1 px-2 '><Link to='/'>Gallery</Link></span>
-              <span className=' py-1 px-2 '><Link to='/'>About us</Link></span>
-              <span className=' py-1 px-2'><Link to='/'>Home</Link></span>
-          </ul>
-        </div>
-      </button> */}
-      <section className='mr-4'>
+      <div className='flex flex-col items-center inter-300'>
+        <h1 className='text-white/70 text-[18px] '>Candies Center</h1>
+        <span className='text-white/40 text-[9px]'>Alacant - Barcelona - Madrid</span>
+      </div>
+      
+      <div className='flex gap-4 items-center'>
+        <img src={bellWhite} alt="" className='h-5' />
         <img src={Person} alt="" className='h-[28px] rounded-2xl' />
-      </section>
       </div>
 
 
-    </section>
+    </header>
     </>
   )
 }
