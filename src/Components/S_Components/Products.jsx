@@ -28,8 +28,8 @@ function Products({
                   <h1 className='inter-800 text-[26px] text-white/80 flex items-center gap-[6px]'>{premise} </h1>
                   <span className='text-center text-white/50 inter-300 mt-[-4px] ml-3 text-[12px]'>{titleProduct} </span>
                 </section>
-                <span className='mt-[10px] ml-[6px] text-[10px] text-white/70 bg-white/10 h-fit p-1 inter-500 rounded-md'>{price}</span>
-    
+                <span className='mt-[10px] ml-[6px] text-[10px] text-white/70 border-b border-white/40 h-fit p-1 inter-500 bg-white/10'>{price}</span>
+  
             </section>
     
             <section className='flex relative w-full'>
@@ -67,9 +67,10 @@ function Products({
 
                 </div>
               <p className='text-[9px] text-center text-white/60 inter-200 mb-3 mt-2'>{paragraph}</p>
-              <div className='flex justify-center items-center ml-6'>
-              <span className='text-black w-fit text-[14px] inter-300 bg-white/70 px-6 py-3 rounded-xl'>Place Order</span>
-              <span className='text-white/30 text-[10px] ml-3'><img src={Moreinfo} alt="" className='h-3' /> </span>
+              <div className='flex justify-center items-center gap-2'>
+                <span className='border-b-[1px] border-white/40 pb-2 bg-white/10 px-4 py-2 rounded-md text-white/70 inter-200 text-[14px] '>Info</span>
+                <span className='border-b-[1px] border-white/40 pb-2 bg-white/10 px-4 py-2 rounded-md text-white/70 inter-200 text-[14px] '>Place Order</span>
+                <span className='border-b-[1px] border-white/40 pb-2 bg-white/10 px-4 py-2 rounded-md text-white/70 inter-200 text-[14px] '>Info</span>
               </div>
             </section>
     

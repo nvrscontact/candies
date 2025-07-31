@@ -25,24 +25,31 @@ function NavBar() {
 
     <>
 
-    <header className='bg-[#1a1411] flex justify-between items-center py-[10px] px-5'>
+    <header className='bg-[#1a1411] relative flex justify-between items-center py-[10px] px-5'>
 
       <div className='flex gap-4 items-center pr-4'>
-        <details className='relative'>
-          <summary className='list-none' ><img src={Person} alt="" className='h-[28px] rounded-2xl'/> <span className='bg-green-500'></span> </summary>
-          <p className='absolute bg-black/70 w-full'>que ocurre</p>
+        <details className=''>
+          <summary className='list-none' ><img src={Person} alt="" className='h-[28px] rounded-2xl'/> </summary>
+          <div className='absolute left-0 top-15 bg-black/30 backdrop-blur-md w-full h-56 z-2'>
+            <ul className='flex flex-col gap-1 text-[14px] p-4 inter-200 text-white/70 '>
+                <li className=' p-3 flex justify-between items-center' ><Link to='/store'>Candies Store</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
+                <li className='  p-3 flex justify-between items-center ' ><Link to='/albums'>Albums</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
+                <li className='  p-3 flex justify-between items-center' ><Link to='/support'>Support</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
+                <li className='  p-3 flex justify-between items-center '><Link to='/'>Home</Link> <img src={MoreLeft} alt="" className='h-4' /> </li>
+              </ul>
+          </div>
         </details>
       
       </div>
 
-      <div className='flex flex-col items-center inter-300'>
+      <div className='flex flex-col items-center inter-300 '>
         <h1 className='text-white/70 text-[18px] '>Candies Center</h1>
         <span className='text-white/40 text-[9px]'>Alacant - Barcelona - Madrid</span>
       </div>
       
       <div className='flex gap-4 items-center pl-6'>
-        <section className='flex gap-3 items-center relative'>
-          <span className='text-white/60 absolute right-6 '>2</span>
+        <section className='flex gap-3 relative'>
+          <span className='text-white/60 absolute right-6 text-[12px] inter-200 '>2</span>
           <img src={bagWhite} alt="" className='h-4' />
         </section>
       </div>
