@@ -2,6 +2,7 @@ import React from 'react'
 import ShoppingCart from '../../assets/shopping_cart.svg'
 import Heart from '../../assets/heart.svg'
 import Moreinfo from '../../assets/moreinfo.svg'
+import LinkImg from '../../assets/arrow_link.svg'
 
 function Products({
     bg,
@@ -28,7 +29,7 @@ function Products({
                   <h1 className='inter-800 text-[26px] text-white/80 flex items-center gap-[6px]'>{premise} </h1>
                   <span className='text-center text-white/50 inter-300 mt-[-4px] ml-3 text-[12px]'>{titleProduct} </span>
                 </section>
-                <span className='mt-[10px] ml-[6px] text-[10px] text-white/70 border-b border-white/40 h-fit p-1 inter-500 bg-white/10'>{price}</span>
+                <span className='mt-[10px] ml-[6px] text-[10px] text-white/70 border-b-[2px] border-white/20 h-fit p-1 inter-200 bg-[#1a1a1ad5] '>{price}</span>
   
             </section>
     
@@ -45,9 +46,8 @@ function Products({
                 
               </div>
             </section>
-    
-            
-            <section className='mt-3 px-10 flex flex-col'>
+
+            <section className='mt-3 px-10 flex flex-col '>
                 <div className='flex justify-center items-center'>
 
                   <span className='border border-white/30 w-18 h-fit mr-3'></span>
@@ -66,12 +66,13 @@ function Products({
                   <span className='border border-white/30 w-18 h-fit ml-3'></span>
 
                 </div>
-              <p className='text-[9px] text-center text-white/60 inter-200 mb-3 mt-2'>{paragraph}</p>
-              <div className='flex justify-center items-center gap-2'>
-                <span className='border-b-[1px] border-white/40 pb-2 bg-white/10 px-4 py-2 rounded-md text-white/70 inter-200 text-[14px] '>Info</span>
-                <span className='border-b-[1px] border-white/40 pb-2 bg-white/10 px-4 py-2 rounded-md text-white/70 inter-200 text-[14px] '>Place Order</span>
-                <span className='border-b-[1px] border-white/40 pb-2 bg-white/10 px-4 py-2 rounded-md text-white/70 inter-200 text-[14px] '>Info</span>
-              </div>
+              <p className='text-[9px] text-center text-white/60 inter-200 mb-4 mt-2'>{paragraph}</p>
+              
+                <button className='flex items-center mx-auto border border-white/20'>
+
+                <span className='bg-white/10 m-[2px] px-5 py-2 flex gap-[6px] items-center inter-200 text-[14px] '>Place Order <img src={LinkImg} alt="" className='h-[14px] ' /> </span>
+    
+               </button>
             </section>
     
           </div>

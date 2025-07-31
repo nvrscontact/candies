@@ -29,7 +29,12 @@ function NavBar() {
 
       <div className='flex gap-4 items-center pr-4'>
         <details className=''>
-          <summary className='list-none' ><img src={Person} alt="" className='h-[28px] rounded-2xl'/> </summary>
+          <summary className='list-none' >
+            <section className='flex items-center relative'>
+            <img src={Person} alt="" className='h-[28px] rounded-2xl border border-white/60'/>
+            <img src={Moreinfo} alt="" className='h-[14px] absolute left-9' />
+            </section>
+              </summary>
           <div className='absolute left-0 top-15 bg-black/30 backdrop-blur-md w-full h-56 z-2'>
             <ul className='flex flex-col gap-1 text-[14px] p-4 inter-200 text-white/70 '>
                 <li className=' p-3 flex justify-between items-center' ><Link to='/store'>Candies Store</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
