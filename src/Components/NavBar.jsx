@@ -27,29 +27,35 @@ function NavBar() {
 
     <header className='bg-[#1a1411] relative flex justify-between items-center py-[10px] px-5'>
 
-      <div className='flex gap-4 items-center pr-4'>
+      {/* NavBar */}
+      <nav className='flex gap-4 items-center pr-4'>
         <details className=''>
           <summary className='list-none' >
             <section className='flex items-center relative'>
-            <img src={Person} alt="" className='h-[28px] rounded-2xl border border-white/60'/>
-            <img src={Moreinfo} alt="" className='h-[14px] absolute left-9' />
+              <img src={Person} alt="" className='h-[28px] rounded-2xl border border-white/60'/>
+              <img src={Moreinfo} alt="" className='h-[14px] absolute left-9' />
             </section>
-              </summary>
-          <div className='absolute left-0 top-15 bg-black/30 backdrop-blur-md w-full h-56 z-2'>
+          </summary>
+          <div className='absolute left-0 top-15 bg-black/50 backdrop-blur-md w-full z-2 border-b border-white/20'>
             <ul className='flex flex-col gap-1 text-[14px] p-4 inter-200 text-white/70 '>
-                <li className=' p-3 flex justify-between items-center' ><Link to='/store'>Candies Store</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
-                <li className='  p-3 flex justify-between items-center ' ><Link to='/albums'>Albums</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
-                <li className='  p-3 flex justify-between items-center' ><Link to='/support'>Support</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
+                <li className=' p-3 flex justify-between items-center' ><Link to='/store'>Store</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
+                <li className='  p-3 flex justify-between items-center ' ><Link to='/albums'>Promotions</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
+                <li className='  p-3 flex justify-between items-center' ><Link to='/support'>Ubications</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
                 <li className='  p-3 flex justify-between items-center '><Link to='/'>Home</Link> <img src={MoreLeft} alt="" className='h-4' /> </li>
-              </ul>
+            </ul>
+            
+            <div className='p-3 text-center space-y-1'>
+              <button className='bg-white/20 py-2 px-8 w-full text-white/70'>Register</button>
+                <span className='text-[12px] text-white/70 '>Already have an account? <a href="" className='inter-600 ml-1'>Log In</a> </span>
+            </div>
+
           </div>
         </details>
-      
-      </div>
+      </nav>
 
       <div className='flex flex-col items-center inter-300 '>
-        <h1 className='text-white/70 text-[18px] '>Candies Center</h1>
-        <span className='text-white/40 text-[9px]'>Alacant - Barcelona - Madrid</span>
+        <h1 className='text-white/70 text-[18px] '>Candy Center</h1>
+        <span className='text-white/40 text-[9px] mt-[-2px] '>Alacant - Barcelona - Madrid</span>
       </div>
       
       <div className='flex gap-4 items-center pl-6'>

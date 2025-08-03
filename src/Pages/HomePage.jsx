@@ -1,16 +1,17 @@
-import Products from '../Components/S_Components/Products'
+import Product from '../Components/S_Components/Product'
 
 import Star from '../assets/star.svg'
 import CupcakeThree from '../assets/cupcake_three.png'
 import CupcakeFour from '../assets/cupcake_four.png'
 import CupcakeFive from '../assets/cupcake_five.png'
+import LinkImg from '../assets/arrow_link.svg'
 
 
 function HomePage() {
   return (
     <>
     
-    <Products 
+    <Product 
     py={'pt-16 pb-24 '}
     bg='bg-black/70 '
     premise={'Newest Creation'} 
@@ -29,9 +30,15 @@ function HomePage() {
     <section className='my-10 text-center inter-200'>
       <p className='text-2xl mb-2 text-white/60 inter-200'>See our Menu</p>
       <p className='text-[10px] text-white/40 mx-12'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor fugiat eveniet, numquam eligendi cupiditate saepe voluptates. Nesciunt labore expedita eveniet.</p>
+
+        <button className='flex items-center mx-auto border border-white/20 mt-5'>
+          <span className='bg-white/10 m-[2px] px-5 py-2 flex gap-[6px] items-center inter-200 tracking-[2px] text-[14px] '>Visit </span>
+        </button>
+
+
     </section>
 
-    <Products
+    <Product
     py={'py-30'} 
     bg={'bg-black/70'}
     premise={'Magnificent Essence'} 
@@ -52,7 +59,7 @@ function HomePage() {
       <p className='text-[10px] text-white/40 mx-12'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor fugiat eveniet, numquam eligendi cupiditate saepe voluptates. Nesciunt labore expedita eveniet.</p>
     </section>
         
-    <Products
+    <Product
     py={'py-30'} 
     bg={'bg-black/75'}
     premise={'Summer Surprise'} 

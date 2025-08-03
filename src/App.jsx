@@ -4,10 +4,10 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Layout from './Layout';
 
 import HomePage from './Pages/HomePage'
-
-import NavBar from './Components/NavBar'
-import Footer from './Components/Footer'
-import AboutMe from './Pages/AboutMe';
+import Contact from './Pages/Contact'
+import AboutUs from './Pages/AboutUs';
+import Security from './Pages/Security';
+import Promotions from './Pages/Promotions';
 
 function App() {
 
@@ -19,7 +19,10 @@ function App() {
           <Route path='/' element={<Layout/>}>
             <Route index element={<HomePage/>}/>
             <Route path='/' element={<HomePage/>} />
-            <Route path='/aboutme' element={<AboutMe/>} />
+            <Route path='/about-us' element={<AboutUs/>} />
+            <Route path='/contact' element={<Contact/>} />
+            <Route path='/security' element={<Security/>} />
+            <Route path='/promotions' element={<Promotions/>} />
 
           </Route>
         </Routes>

@@ -1,10 +1,7 @@
-import React from 'react'
-import ShoppingCart from '../../assets/shopping_cart.svg'
-import Heart from '../../assets/heart.svg'
-import Moreinfo from '../../assets/moreinfo.svg'
+
 import LinkImg from '../../assets/arrow_link.svg'
 
-function Products({
+function Product({
     bg,
     py,
     premise,
@@ -41,7 +38,6 @@ function Products({
                 .filter(Boolean)
                 .map((flavour,index) => (
                     <span key={index} className='text-[8px] rounded-[6px] py-1 px-2 bg-white/10 '>{flavour}</span>
-
                 ))}
                 
               </div>
@@ -68,9 +64,9 @@ function Products({
                 </div>
               <p className='text-[9px] text-center text-white/60 inter-200 mb-4 mt-2'>{paragraph}</p>
               
-                <button className='flex items-center mx-auto border border-white/20'>
+                <button className='flex items-center mx-auto border border-white/20 rounded-md'>
 
-                <span className='bg-white/10 m-[2px] px-5 py-2 flex gap-[6px] items-center inter-200 text-[14px] '>Place Order <img src={LinkImg} alt="" className='h-[14px] ' /> </span>
+                <span className='bg-white/10 m-[2px] pl-6 py-2 flex gap-[6px] items-center inter-200 text-[14px] rounded-[4px] '>Place Order <img src={LinkImg} alt="" className='h-[12px] pl-2 pr-3 ' /> </span>
     
                </button>
             </section>
@@ -79,4 +75,4 @@ function Products({
   )
 }
 
-export default Products
+export default Product
