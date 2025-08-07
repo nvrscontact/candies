@@ -25,7 +25,7 @@ function Footer() {
 
             <section className='p-6'>
                 
-                <section className='grid grid-cols-3 grid-rows-2 gap-10 mb-10 text-[12px] text-white/50 '>
+                <section className='grid grid-cols-3 grid-rows-2 gap-10 mb-3 text-[12px] text-white/50 '>
                     <div className='flex flex-col gap-2'>
                         <h2 className='text-[14px] text-white/70 mb-1'>Company</h2>
                         <Link to='/contact#contact'>Contact</Link>
@@ -64,7 +64,7 @@ function Footer() {
                 
                 <section className='flex justify-between'>
                     <div>
-                        <p className='text-white/40 text-[8px]'>Copyright © 2025 Candies Center. <br /> All Right Reserved.</p>
+                        <p className='text-white/40 text-[8px]'>Copyright © 2025 Candy Center. <br /> All Right Reserved.</p>
                     </div>
                     <div className='flex gap-2 [&>*]:h-6 '>
                         <img src={ApplePay} alt="" />
@@ -72,7 +72,7 @@ function Footer() {
                         <img src={AmericanExpress} alt="" />
                         <img src={Paypal} alt="" />
                         <img src={Visa} alt="" />
-                        </div>
+                    </div>
                 </section>
 
             

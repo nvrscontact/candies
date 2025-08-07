@@ -1,5 +1,6 @@
 
 import LinkImg from '../../assets/arrow_link.svg'
+import {Link} from 'react-router-dom'
 
 function Product({
     bg,
@@ -26,7 +27,7 @@ function Product({
                   <h1 className='inter-800 text-[26px] text-white/80 flex items-center gap-[6px]'>{premise} </h1>
                   <span className='text-center text-white/50 inter-300 mt-[-4px] ml-3 text-[12px]'>{titleProduct} </span>
                 </section>
-                <span className='mt-[10px] ml-[6px] text-[10px] text-white/70 border-b-[2px] border-white/20 h-fit p-1 inter-200 bg-[#1a1a1ad5] '>{price}</span>
+                <span className='mt-[10px] ml-[6px] text-[10px] text-white/70 border-b-[1px] border-white/20 h-fit p-1 inter-200 bg-[#1a1a1ad5] '>{price}</span>
   
             </section>
     
@@ -66,7 +67,7 @@ function Product({
               
                 <button className='flex items-center mx-auto border border-white/20 rounded-md'>
 
-                <span className='bg-white/10 m-[2px] pl-6 py-2 flex gap-[6px] items-center inter-200 text-[14px] rounded-[4px] '>Place Order <img src={LinkImg} alt="" className='h-[12px] pl-2 pr-3 ' /> </span>
+                <Link to='/order' className='flex items-center gap-3 pr-4 bg-white/10 m-[2px] pl-6 py-2 gap-[6px] inter-200 text-[14px] rounded-[4px] '>Place Order <img src={LinkImg} alt="" className='h-[12px]'/></Link>
     
                </button>
             </section>

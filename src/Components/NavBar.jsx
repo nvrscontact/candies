@@ -1,7 +1,7 @@
 import React, {useRef} from 'react'
 import {Link} from 'react-router-dom'
 import HamburgerMenu from '../assets/hamburger_right.svg'
-import MoreLeft from '../assets/more_left.svg'
+import arrow_down from '../assets/arrow_down.svg'
 import Person from '../assets/person.jpg'
 import Moreinfo from '../assets/moreinfo.svg'
 import bagWhite from '../assets/bagWhite.svg'
@@ -25,7 +25,7 @@ function NavBar() {
 
     <>
 
-    <header className='bg-[#1a1411] relative flex justify-between items-center py-[10px] px-5'>
+    <header className='bg-[#1a1411] relative flex justify-between items-center py-[10px] px-5 text-white/70'>
 
       {/* NavBar */}
       <nav className='flex gap-4 items-center pr-4'>
@@ -37,16 +37,17 @@ function NavBar() {
             </section>
           </summary>
           <div className='absolute left-0 top-15 bg-black/50 backdrop-blur-md w-full z-2 border-b border-white/20'>
-            <ul className='flex flex-col gap-1 text-[14px] p-4 inter-200 text-white/70 '>
-                <li className=' p-3 flex justify-between items-center' ><Link to='/store'>Store</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
-                <li className='  p-3 flex justify-between items-center ' ><Link to='/albums'>Promotions</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
-                <li className='  p-3 flex justify-between items-center' ><Link to='/support'>Ubications</Link> <img src={MoreLeft} alt="" className='h-4' /></li>
-                <li className='  p-3 flex justify-between items-center '><Link to='/'>Home</Link> <img src={MoreLeft} alt="" className='h-4' /> </li>
+            <ul className='flex flex-col gap-1 text-[14px] p-4 inter-200 '>
+                <li className='p-3' ><Link to='/store' className='flex justify-between items-center'>Store <img src={arrow_down} alt="" className='h-4' /></Link></li>
+                <li className='p-3'><Link to='/promotions' className='flex justify-between items-center'>Promotions <img src={arrow_down} alt="" className='h-4' /></Link></li>
+                <li className='p-3'><Link to='/about-us#franchises' className='flex justify-between items-center'>Ubications <img src={arrow_down} alt="" className='h-4' /></Link></li>
+                <li className='p-3'><Link to='/about-us' className='flex justify-between items-center'> About Us <img src={arrow_down} alt="" className='h-4' /></Link></li>
+                <li className='p-3'><Link to='/' className='flex justify-between items-center'>Home <img src={arrow_down} alt="" className='h-4' /> </Link> </li>
             </ul>
             
-            <div className='p-3 text-center space-y-1'>
-              <button className='bg-white/20 py-2 px-8 w-full text-white/70'>Register</button>
-                <span className='text-[12px] text-white/70 '>Already have an account? <a href="" className='inter-600 ml-1'>Log In</a> </span>
+            <div className='py-2 px-6 text-center'>
+              <button className='bg-white/20 py-2 my-1 px-8 w-full'><Link to='/register'>Register</Link></button>
+                <span className='text-[12px] inter-200'>Already have an account? <Link to='/login' className='inter-400'>Log In</Link> </span>
             </div>
 
           </div>
