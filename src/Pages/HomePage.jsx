@@ -8,6 +8,7 @@ import cupcake from '../assets/cupcake.svg'
 import cookie from '../assets/cookie.svg'
 import candy from '../assets/candy.svg'
 import cake from '../assets/cake.svg'
+import arrow from '../assets/arrow.svg'
 import LinkImg from '../assets/arrow_link.svg'
 
 
@@ -31,10 +32,10 @@ function HomePage() {
     stars_number={'+23'}
     paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam voluptatibus aliquam praesentium another vocabulary. Lorem ipsum dolor sit amet consectetur adipisicing elit'} />
 
-    <section className='my-18 inter-200 mx-8'>
+    <section className='inter-200 px-8 border-y py-16 border-white/30'>
       
       <div className='flex justify-between items-center'>
-      <h1 className='text-2xl text-white/60 inter-200 border-b border-white/10 pb-2 '>See our Menu </h1>
+      <h1 className='text-2xl text-white/60 inter-200 border-b border-white/20 pb-2 '>See our Menu </h1>
 
         <section className='flex gap-2 items-center'>
           <span className='text-[10px] text-white/70 mr-1 '>+3</span>
@@ -50,16 +51,18 @@ function HomePage() {
         </section>
 
       </div>
-      <p className='text-[10px] text-white/50 my-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor fugiat eveniet, numquam eligendi cupiditate saepe voluptates. Nesciunt labore expedita eveniet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor fugiat eveniet, numquam eligendi </p>
+
+      <section className='flex flex-col gap-2 text-[10px] text-white/50 my-5'>
+        <p className=''>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor fugiat eveniet, numquam eligendi cupiditate saepe voluptates. Nesciunt labore expedita eveniet. Lorem ipsum dolor sit. </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, sit!</p>
+      </section>
 
 
-      <div className='flex gap-3 items-center'>
-        
+      <div className='flex gap-3 items-center'> 
         <button className='flex justify-center rounded-md'>
-          <span className='bg-white/10 text-white m-[2px] px-5 py-2 flex justify-end items-end gap-[6px] inter-300 text-[12px] rounded-[4px]'>Visit Site</span>
+          <span className='bg-white/10 text-white m-[2px] px-5 py-2 flex justify-end items-center gap-1 inter-300 text-[14px] rounded-[4px]'>Visit Site <img src={arrow} alt="" className='h-3' /> </span>
         </button>
         <span className='text-white/60 text-[10px]'>In drinks 10% discounts available</span>
-
       </div>
 
 

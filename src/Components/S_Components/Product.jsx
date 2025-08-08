@@ -33,7 +33,7 @@ function Product({
     
             <section className='flex relative w-full'>
               <div className="degraded"></div>
-              <img src={imgProduct} alt="" className='h-60 w-48 mx-auto' />
+              <img src={imgProduct} alt="" className='h-60 w-52 mx-auto pr-2' />
               <div className='flex flex-col gap-1 items-end absolute right-7 mt-6 inter-200'>
                 {flavours
                 .filter(Boolean)
@@ -44,7 +44,7 @@ function Product({
               </div>
             </section>
 
-            <section className='mt-3 px-10 flex flex-col '>
+            <section className='mt-3 px-6 flex flex-col '>
                 <div className='flex justify-center items-center'>
                   <span className='border border-white/30 w-18 h-fit mr-3'></span>
                   
@@ -56,7 +56,7 @@ function Product({
                         <img src={star_four} alt="" className='h-4' />
                         <img src={star_five} alt="" className='h-4' />
                       </div>
-                      <span className='text-[8px] pl-[2px] text-white/50 inter-200'>{stars_number} reviews</span>
+                      <span className='text-[8px] pl-[2px] text-white/60 inter-200'>{stars_number} reviews</span>
                     </section>
 
                   <span className='border border-white/30 w-18 h-fit ml-3'></span>
