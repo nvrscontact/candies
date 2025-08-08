@@ -90,7 +90,7 @@ function HomePage() {
     py={'py-30'} 
     bg={'bg-black/75'}
     premise={'Summer Surprise'} 
-    titleProduct={'s0bor a cerezas tropicales'} 
+    titleProduct={'sabor a cerezas tropicales'} 
     imgProduct={CupcakeFour} 
     price={'$3.89'}
     flavours={['Strawberry','Blueberry','Limonade','Cherry']}
